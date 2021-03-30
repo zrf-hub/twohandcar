@@ -1,0 +1,168 @@
+.buysell {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    top: -80.5px;
+    z-index: 3;
+    height: 271.5px;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #dfe3e3;
+    border-top: 0;
+    box-shadow: 0 1px 4px 0 rgba(88, 100, 117, .2);
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.buysell-buy {
+    width: 728px;
+    float: left;
+}
+
+.buysell-buy-title {
+    padding-top: 42.5px;
+    padding-left: 42.5px;
+}
+
+.buysell-buy-link {
+    font-size: 22px;
+    color: #181818;
+    letter-spacing: .75px;
+    line-height: 22px;
+    font-weight: 700;
+    position: relative;
+}
+
+.buysell-buy-link::after {
+    border: solid transparent;
+    border-left-color: black;
+    border-width: 10px;
+    content: " ";
+    position: absolute;
+    top: 7px;
+    left: 103px;
+}
+
+.buysell-buy-link:hover {
+    color: #3bb46d;
+}
+
+.buysell-buy-link:hover::after {
+    border-left-color: #3bb46d;
+}
+
+.buysell-buy-content {
+    padding-top: 30px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+
+.buysell-buy-brand {
+    float: left;
+    width: 100px;
+    line-height: 22px;
+    color: #181818;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 14px;
+    cursor: pointer;
+    padding-bottom: 18px;
+}
+
+.buysell-sell {
+    width: 377.5px;
+    float: right;
+    padding-right: 42.5px;
+}
+
+.buysell-sell-title {
+    padding-left: 0;
+    padding-bottom: 9px;
+    height: 45px;
+    font-size: 22px;
+    color: #181818;
+    letter-spacing: .75px;
+    overflow: hidden;
+    padding-top: 43.5px;
+    background: #fff;
+    box-sizing: content-box;
+}
+
+.buysell-sell-phone {
+    position: relative;
+    width: 378px;
+}
+
+.buysell-sell-phone-input {
+    float: left;
+    width: 223px;
+    height: 28px;
+    line-height: 28px;
+    padding: 13px 10px 12px 20px;
+    font-size: 16px;
+    color: #495056;
+    background: #f5f5f7;
+    border: 1px solid #f5f5f7;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.buysell-sell-phone-input:hover {
+    border: 1px solid #e5e5e5;
+}
+
+.buysell-sell-phone-input:focus {
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+}
+
+.buysell-sell-phone-btn {
+    background: #3cb46d;
+    width: 114px;
+    line-height: 54px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    float: right;
+    cursor: pointer;
+}
+
+.buysell-sell-phone-btn:hover {
+    background: #349b5e;
+}
+
+.buysell-sell-btn {
+    float: left;
+    width: 188.5px;
+    height: 57px;
+    line-height: 57px;
+    font-size: 16px;
+    color: #3cb46d;
+    background: #f0fff6;
+    border: 1px solid #3cb46d;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.buysell-sell-btn-right {
+    border-left: none;
+    border-right: 1px solid #3cb46d;
+    border-radius: 0 4px 4px 0;
+    position: relative;
+}
+
+.buysell-sell-btn-right::before {
+    content: "";
+    width: 1px;
+    height: 14px;
+    margin-top: 21.5px;
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    background: #3cb46d;
+}

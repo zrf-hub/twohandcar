@@ -1,0 +1,335 @@
+.xq-detail {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.xq-main {
+    margin-top: 63px;
+    margin-bottom: 31px;
+}
+
+.xq-main::after {
+    content: " ";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+.xq-image {
+    width: 602px;
+    float: left;
+    position: relative;
+    height: 402px;
+}
+
+.xq-image img {
+    width: 100%;
+}
+
+.xq-textbox {
+    width: 562px;
+    float: right;
+    padding-left: 36px;
+}
+
+.xq-textbox-titlebox {
+    display: inline-block;
+    color: #495056;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 7px;
+    max-height: 60px;
+    overflow: hidden;
+    margin-bottom: 22px;
+}
+
+.xq-textbox-labels {
+    color: #d7a844;
+    background: #fcf2d5;
+    display: inline-block;
+    padding: 0 7px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 2px;
+    margin-right: 3px;
+    vertical-align: top;
+    margin-top: 3px;
+    margin-left: 6px;
+}
+
+.xq-textbox-assort {
+    margin-bottom: 15px;
+    list-style: none;
+}
+
+.xq-textbox-assort::after {
+    content: " ";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+.xq-textbox-assort li {
+    float: left;
+    text-align: center;
+    color: #a5abb2;
+    line-height: 24px;
+    font-size: 12px;
+    position: relative;
+}
+
+.xq-textbox-assort li::before {
+    content: "";
+    height: 34px;
+    width: 1px;
+    background-color: #e6e6e6;
+    position: absolute;
+    top: 9px;
+    left: 0;
+}
+
+.xq-textbox-assort-one {
+    width: 117px;
+}
+
+.xq-textbox-assort li.xq-textbox-assort-one::before {
+    width: 0;
+}
+
+.xq-textbox-assort-two {
+    width: 146px;
+}
+
+.xq-textbox-assort-three {
+    width: 97px;
+}
+
+.xq-textbox-assort-last {
+    width: 81px;
+}
+
+.xq-textbox-assort li span {
+    display: block;
+    color: #495056;
+    font-size: 18px;
+    padding-bottom: 3px;
+}
+
+.xq-textbox-pricebox {
+    margin-bottom: 22px;
+}
+
+.xq-textbox-pricebox-title {
+    color: #303741;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.xq-textbox-pricebox-main {
+    overflow: hidden;
+}
+
+.xq-textbox-pricebox-num {
+    font-size: 30px;
+    color: #303741;
+    line-height: 40px;
+    float: left;
+}
+
+.xq-textbox-pricebox-origin {
+    font-size: 14px;
+    float: left;
+    margin-top: 16px;
+    margin-left: 9px;
+    color: #8f96a0;
+    line-height: 18px;
+    text-decoration: line-through;
+}
+
+.xq-textbox-protect {
+    background: #fffdf9;
+    margin-bottom: 20px;
+    padding: 25.5px 27px 10.5px 25px;
+    border: 1px solid #fcf2d5;
+}
+
+.xq-textbox-protect-title {
+    font-size: 14px;
+    color: #495056;
+    line-height: 14px;
+    padding-bottom: 27px;
+}
+
+.xq-textbox-protect-text {
+    line-height: 14px;
+    display: inline-block;
+    padding-right: 8px;
+    color: #495056;
+    font-size: 14px;
+    font-style: normal;
+}
+
+.xq-textbox-protect-list {
+    list-style: none;
+}
+
+.xq-textbox-protect-list::after {
+    content: " ";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+.xq-textbox-protect-list li {
+    width: 25%;
+    float: left;
+    line-height: 14px;
+    margin-bottom: 15px;
+    font-size: 13px;
+    color: #495056;
+}
+
+.xq-textbox-protect-list li span {
+    white-space: nowrap;
+    width: 107px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    /* float: left; */
+}
+
+.xq-textbox-btnbox::after {
+    content: " ";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+.xq-textbox-btnbox-orgbtn {
+    background-color: #fd6c34;
+    position: relative;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 20px;
+    display: inline-block;
+    width: 174px;
+    height: 48px;
+    line-height: 48px;
+    vertical-align: top;
+    color: #fff;
+    margin-right: 20px;
+    float: right;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.xq-textbox-btnbox-orgbtn:hover {
+    background-color: #f95523;
+    color: #fff;
+}
+
+.xq-infor-titlediv {
+    height: 47px;
+    line-height: 47px;
+    font-size: 22px;
+    color: #495056;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.xq-infor-people {
+    margin-bottom: 28px;
+}
+
+.xq-infor-people::after {
+    content: " ";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+.xq-infor-people dt {
+    width: 220px;
+    padding-left: 11px;
+    position: relative;
+    float: left;
+    color: #495056;
+}
+
+.xq-infor-people-name {
+    font-size: 20px;
+}
+
+.xq-infor-people-ask,.xq-infor-people-ask:hover {
+    width: 86px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+    position: absolute;
+    margin-left: 10px;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    background-color: #22ac38;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.xq-infor-people-tooltip {
+    font-size: 16px;
+    width: 209px;
+    padding: 8px 0 8px 15px; 
+    display: block;
+    color: #495056;
+    text-align: left;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.xq-infor-people-tooltip-phone {
+    color: #22ac38;
+    font-style: normal;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.xq-infor-people dd {
+    width: 860px;
+    padding-left: 100px;
+    float: left;
+    color: #495049;
+}
+
+.type-gray {
+    padding: 0 14px 0 13px;
+    display: inline-block;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 15px;
+    color: #7a838d;
+    background-color: #f6f6f6;
+    margin-right: 16px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.xq-infor-param {
+    margin-bottom: 40px;
+    list-style: none;
+}
+
+.sell-qa-list li {
+    height: 220px;
+}

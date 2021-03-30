@@ -1,0 +1,139 @@
+
+.sousuo-container{
+    height: 200px;
+}
+
+.sousuo-title{
+    width: 730px;
+    margin: 30px auto 20px;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.sousuo-title .sousuo-brand{
+    margin: 35px;
+    font-size: 35px;
+    color: rgb(233, 233, 5);
+}
+
+.sousuo-input{
+    margin: 0 auto;
+    border: none;
+    position: relative;
+    width: 655px;
+    background: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .05);
+    height: 57px;
+    border-radius: 6px;
+}
+
+.sousuo-search{
+    float: left;
+    font: 12px/1.5 arial,helvetica,clean,sans-serif;
+    width: 70%;
+    height: 44px;
+    margin-top: 7.5px;
+    line-height: 44px;
+    padding-left: 30px;
+    padding-right: 0;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    padding: 0 10px;
+    color: #495056;
+}
+
+.sousuo-btn{
+    float: right;
+    line-height: 51px;
+    margin-top: 3px;
+    margin-right: 3px;
+    height: 51px;
+    width: 105px;
+    padding: 0;
+    background: #3cb46d;
+    border-radius: 0 4px 4px 0;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.sousuo-btn:hover{
+    background: #349b5e;
+}
+
+.index-foot-buysell {
+    height: 120px;
+    background-color: #fff;
+    background-image: url("http://localhost:8001/image/index-foot-buysell.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+    margin-top: 36px;
+}
+
+.index-foot-container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.index-foot-tel {
+    width: 382px;
+    font-size: 14px;
+    color: #858d96;
+    text-align: center;
+    float: left;
+}
+
+.index-foot-title {
+    width: 382px;
+    margin-top: 33px;
+    margin-bottom: 9px;
+    font-size: 30px;
+    color: #000;
+    font-weight: 700;
+}
+
+.index-foot-title span {
+    color: #3cb46d;
+}
+
+.index-foot-btn {
+    padding-top: 38px;
+    float: left;
+}
+
+.index-foot-btn-all {
+    float: left;
+    width: 179px;
+    margin-left: 23px;
+    line-height: 64px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.index-foot-btn-buy {
+    background-color: #3cb46d;
+}
+
+.index-foot-btn-buy:hover {
+    background: #349b5e;
+    color: #fff;
+}
+
+.index-foot-btn-sell {
+    background-color: #97cf00;
+    margin-left: 11px;
+}
+
+.index-foot-btn-sell:hover {
+    background: #88ba00;
+    color: #fff;
+}

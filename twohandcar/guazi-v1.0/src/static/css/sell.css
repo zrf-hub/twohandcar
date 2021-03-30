@@ -1,0 +1,213 @@
+html,body {
+    min-width: 1200px;
+    /* 我在sell.css中 */
+}
+
+.sell-container {
+    background: url("http://localhost:8001/image/sell-background.jpg") no-repeat center top;
+}
+
+.sell-main {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.sell-area {
+    width: 1200px;
+    height: 350px;
+}
+
+.sell-area-title {
+    color: #fff;
+    font-size: 44px;
+    line-height: 80px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.sell-area-phone {
+    position: relative;
+    z-index: 1;
+    /* width: 975px; */
+    height: 56px;
+    padding-top: 38px;
+    padding-left: 308px;
+}
+
+.sell-area-phone-input {
+    float: left;
+    width: 408px;
+    height: 18px;
+    padding: 19px 15px;
+    line-height: 18px;
+    color: #495056;
+    font-size: 18px;
+    border: none;
+    background-color: #fff;
+}
+
+.sell-area-phone-btn {
+    background: #22ac38;
+    margin-right: 15px;
+    float: left;
+    width: 148px;
+    height: 56px;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+}
+
+.sell-inc {
+    width: 1200px;
+    height: 410px;
+    padding-top: 50px;
+    background: #fff;
+}
+
+.sell-inc-tit {
+    font-size: 32px;
+    color: #22ac38;
+    line-height: 48px;
+    text-align: center;
+}
+
+.sell-inc-li {
+    padding-top: 23px;
+    width: 1086px;
+    margin: 0 auto;
+    overflow: hidden;
+    list-style: none;
+}
+
+.sell-inc-li li {
+    width: 362px;
+    height: 255px;
+    float: left;
+}
+
+.sell-inc-icon {
+    width: 114px;
+    height: 114px;
+    margin: 0 auto 15px;
+    background-repeat: no-repeat;
+}
+
+.sell-inc-icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.sell-inc-tip {
+    font-size: 20px;
+    color: #373b3f;
+    line-height: 38px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.sell-inc-desc {
+    font-size: 16px;
+    color: #7a838d;
+    line-height: 26px;
+    text-align: center;
+}
+
+.sell-qa {
+    min-height: 535px;
+    background: #f8f8f8;
+    min-width: 1200px;
+}
+
+.sell-qa-box {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.sell-qa-con {
+    padding: 33px 0 40px;
+}
+
+.sell-qa-con p {
+    font-size: 24px;
+    color: #495056;
+    line-height: 44px;
+    text-align: center;
+}
+
+.sell-qa-con i {
+    display: block;
+    width: 28px;
+    height: 3px;
+    margin: 0 auto;
+    line-height: 0;
+    font-size: 0;
+    background: #22ac38;
+}
+
+.sell-qa-list {
+    list-style: none;
+}
+
+.sell-qa-list li {
+    width: 500px;
+    height: 190px;
+    float: left;
+    margin: 0 60px 0 35px;
+}
+
+.sell-qa-list::after {
+    content: " ";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+.sell-qa-list-pic {
+    background-position: -130px -220px;
+    float: left;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: url("http://localhost:8001/image/sell-qa-pic.png");
+    background-repeat: no-repeat;
+}
+
+.sell-qa-list-pic.pic2 {
+    background-position: -190px -220px;
+}
+
+.sell-qa-list-con {
+    float: right;
+    width: 425px;
+    padding-top: 12px;
+}
+
+.sell-qa-list-t {
+    position: relative;
+    display: inline-block;
+    line-height: 36px;
+    padding: 0 15px;
+    background: #ebebeb;
+    border-radius: 3px;
+    font-size: 16px;
+    color: #495056;
+}
+
+.sell-qa-list-t i {
+    position: absolute;
+    top: 13px;
+    left: -11px;
+    display: block;
+    width: 1px;
+    height: 1px;
+    border: 5px solid transparent;
+    border-right: 5px solid #ebebeb;
+}
+
+.sell-qa-list-txt {
+    font-size: 14px;
+    color: #a5abb2;
+    padding-top: 10px;
+    line-height: 30px;
+}

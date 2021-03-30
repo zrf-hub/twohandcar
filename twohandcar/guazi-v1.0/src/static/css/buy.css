@@ -1,0 +1,65 @@
+.buy-container {
+    background-color: #fff;
+}
+
+.buy-container .header-icon {
+    background-color: #0a941c;
+    color: #fff;
+}
+/* 就这 */
+.buy-container .header-menu.ant-menu {
+    color: #000;
+}
+
+.buy-container .ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-item-selected {
+    color: #000 !important;
+    border-bottom: 2px solid #22ac38 !important;
+}
+
+.buy-container .ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-item:hover {
+    color: #000 !important;
+    border-bottom: 2px solid#22ac38 !important;
+}
+
+.buy-container .header-tel {
+    color: #000;
+}
+
+.buy-list-wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.buy-list-header {
+    height: 54px;
+}
+
+.buy-list-title {
+    float: left;
+    line-height: 54px;
+    font-size: 14px;
+    color: #495056;
+}
+
+.ant-descriptions-item-label {
+    width: 100px;
+}
+
+.buy-carlist {
+    display: flex;
+    flex-flow: wrap;
+    margin-top: 30px;
+}
+
+.buy-pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.buy-container .header-tel {
+    border-right: 1px solid #000;
+}
+
+.buy-container .header-login {
+    color: black;
+}
